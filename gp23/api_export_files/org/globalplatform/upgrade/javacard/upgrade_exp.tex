@@ -1,0 +1,759 @@
+export file {		// org/globalplatform/upgrade
+	magic	00FACADE		 // in hex
+	minor_version	1
+	major_version	2
+	constant_pool_count	64
+	constant_pool {
+		Constant_Utf8_info {
+			tag	1
+			length	11
+			bytes	TYPE_SIMPLE
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	1
+			bytes	B
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	13
+			bytes	ConstantValue
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	1
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	11
+			bytes	TYPE_MAPPED
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	2
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	12
+			bytes	SIZE_BOOLEAN
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	1
+			bytes	S
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	9
+			bytes	SIZE_BYTE
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	10
+			bytes	SIZE_SHORT
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	5
+			bytes	write
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	39
+			bytes	(Z)Lorg/globalplatform/upgrade/Element;
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	39
+			bytes	(B)Lorg/globalplatform/upgrade/Element;
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	39
+			bytes	(S)Lorg/globalplatform/upgrade/Element;
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	56
+			bytes	(Ljava/lang/Object;)Lorg/globalplatform/upgrade/Element;
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	15
+			bytes	canWriteBoolean
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	3
+			bytes	()S
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	12
+			bytes	canWriteByte
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	13
+			bytes	canWriteShort
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	14
+			bytes	canWriteObject
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	8
+			bytes	initRead
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	3
+			bytes	()V
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	11
+			bytes	readBoolean
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	3
+			bytes	()Z
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	8
+			bytes	readByte
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	3
+			bytes	()B
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	9
+			bytes	readShort
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	10
+			bytes	readObject
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	20
+			bytes	()Ljava/lang/Object;
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	14
+			bytes	canReadBoolean
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	11
+			bytes	canReadByte
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	12
+			bytes	canReadShort
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	13
+			bytes	canReadObject
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	34
+			bytes	org/globalplatform/upgrade/Element
+		}
+		Constant_Classref_info {
+			tag	7
+			name_index	33		// org/globalplatform/upgrade/Element
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	16
+			bytes	java/lang/Object
+		}
+		Constant_Classref_info {
+			tag	7
+			name_index	35		// java/lang/Object
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	15
+			bytes	getMappedObject
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	15
+			bytes	setMappedObject
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	40
+			bytes	org/globalplatform/upgrade/MappedElement
+		}
+		Constant_Classref_info {
+			tag	7
+			name_index	39		// org/globalplatform/upgrade/MappedElement
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	6
+			bytes	onSave
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	38
+			bytes	()Lorg/globalplatform/upgrade/Element;
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	9
+			bytes	onCleanup
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	9
+			bytes	onRestore
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	39
+			bytes	(Lorg/globalplatform/upgrade/Element;)V
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	13
+			bytes	onConsolidate
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	44
+			bytes	org/globalplatform/upgrade/OnUpgradeListener
+		}
+		Constant_Classref_info {
+			tag	7
+			name_index	47		// org/globalplatform/upgrade/OnUpgradeListener
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	11
+			bytes	isUpgrading
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	25
+			bytes	getPreviousPackageVersion
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	23
+			bytes	checkPreviousPackageAID
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	7
+			bytes	([BSB)Z
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	13
+			bytes	createElement
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	41
+			bytes	(BSS)Lorg/globalplatform/upgrade/Element;
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	18
+			bytes	matchMappedElement
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	62
+			bytes	(Ljava/lang/Object;)Lorg/globalplatform/upgrade/MappedElement;
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	16
+			bytes	nonNullReference
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	6
+			bytes	equals
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	21
+			bytes	(Ljava/lang/Object;)Z
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	41
+			bytes	org/globalplatform/upgrade/UpgradeManager
+		}
+		Constant_Classref_info {
+			tag	7
+			name_index	60		// org/globalplatform/upgrade/UpgradeManager
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	26
+			bytes	org/globalplatform/upgrade
+		}
+		CONSTANT_Package_info {
+			tag	13
+			flags	1
+			name_index	62		// org/globalplatform/upgrade
+			minor_version	1
+			major_version	1
+			aid_length	6
+			aid	0xA0:0x0:0x0:0x1:0x51:0x7
+		}
+	}
+	this_package	63
+	referenced_package_count	-1
+	export_class_count	4
+	export_classes {
+		class_info {		// org/globalplatform/upgrade/Element
+			token	0
+			access_flags	public abstract interface
+			name_index	34		// org/globalplatform/upgrade/Element
+			export_supers_count	1
+			supers {
+				constant_pool_index	36		// java/lang/Object
+			}
+			export_interfaces_count	0
+			interfaces {
+			}
+			export_fields_count	5
+			fields {
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	0		// TYPE_SIMPLE
+				Descriptor_Index	1		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	2		// ConstantValue
+					attribute_length	2
+					constantvalue_index	3		// value = 1
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	4		// TYPE_MAPPED
+				Descriptor_Index	1		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	2		// ConstantValue
+					attribute_length	2
+					constantvalue_index	5		// value = 2
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	6		// SIZE_BOOLEAN
+				Descriptor_Index	7		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	2		// ConstantValue
+					attribute_length	2
+					constantvalue_index	3		// value = 1
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	8		// SIZE_BYTE
+				Descriptor_Index	7		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	2		// ConstantValue
+					attribute_length	2
+					constantvalue_index	3		// value = 1
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	9		// SIZE_SHORT
+				Descriptor_Index	7		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	2		// ConstantValue
+					attribute_length	2
+					constantvalue_index	5		// value = 2
+				}
+				}
+			}
+			}
+			export_methods_count	17
+			methods {
+				method_info {
+					token	0
+					access_flags	public abstract
+					name_index	10		// write
+					Descriptor_Index	11		// (Z)Lorg/globalplatform/upgrade/Element;
+				}
+				method_info {
+					token	1
+					access_flags	public abstract
+					name_index	10		// write
+					Descriptor_Index	12		// (B)Lorg/globalplatform/upgrade/Element;
+				}
+				method_info {
+					token	2
+					access_flags	public abstract
+					name_index	10		// write
+					Descriptor_Index	13		// (S)Lorg/globalplatform/upgrade/Element;
+				}
+				method_info {
+					token	3
+					access_flags	public abstract
+					name_index	10		// write
+					Descriptor_Index	14		// (Ljava/lang/Object;)Lorg/globalplatform/upgrade/Element;
+				}
+				method_info {
+					token	4
+					access_flags	public abstract
+					name_index	15		// canWriteBoolean
+					Descriptor_Index	16		// ()S
+				}
+				method_info {
+					token	5
+					access_flags	public abstract
+					name_index	17		// canWriteByte
+					Descriptor_Index	16		// ()S
+				}
+				method_info {
+					token	6
+					access_flags	public abstract
+					name_index	18		// canWriteShort
+					Descriptor_Index	16		// ()S
+				}
+				method_info {
+					token	7
+					access_flags	public abstract
+					name_index	19		// canWriteObject
+					Descriptor_Index	16		// ()S
+				}
+				method_info {
+					token	8
+					access_flags	public abstract
+					name_index	20		// initRead
+					Descriptor_Index	21		// ()V
+				}
+				method_info {
+					token	9
+					access_flags	public abstract
+					name_index	22		// readBoolean
+					Descriptor_Index	23		// ()Z
+				}
+				method_info {
+					token	10
+					access_flags	public abstract
+					name_index	24		// readByte
+					Descriptor_Index	25		// ()B
+				}
+				method_info {
+					token	11
+					access_flags	public abstract
+					name_index	26		// readShort
+					Descriptor_Index	16		// ()S
+				}
+				method_info {
+					token	12
+					access_flags	public abstract
+					name_index	27		// readObject
+					Descriptor_Index	28		// ()Ljava/lang/Object;
+				}
+				method_info {
+					token	13
+					access_flags	public abstract
+					name_index	29		// canReadBoolean
+					Descriptor_Index	16		// ()S
+				}
+				method_info {
+					token	14
+					access_flags	public abstract
+					name_index	30		// canReadByte
+					Descriptor_Index	16		// ()S
+				}
+				method_info {
+					token	15
+					access_flags	public abstract
+					name_index	31		// canReadShort
+					Descriptor_Index	16		// ()S
+				}
+				method_info {
+					token	16
+					access_flags	public abstract
+					name_index	32		// canReadObject
+					Descriptor_Index	16		// ()S
+				}
+			}
+			CAP22_inheritable_count	17
+		}
+		class_info {		// org/globalplatform/upgrade/MappedElement
+			token	1
+			access_flags	public abstract interface
+			name_index	40		// org/globalplatform/upgrade/MappedElement
+			export_supers_count	1
+			supers {
+				constant_pool_index	36		// java/lang/Object
+			}
+			export_interfaces_count	1
+			interfaces {
+				constant_pool_index	34		// org/globalplatform/upgrade/Element
+			}
+			export_fields_count	0
+			fields {
+			}
+			export_methods_count	19
+			methods {
+				method_info {
+					token	0
+					access_flags	public abstract
+					name_index	10		// write
+					Descriptor_Index	11		// (Z)Lorg/globalplatform/upgrade/Element;
+				}
+				method_info {
+					token	1
+					access_flags	public abstract
+					name_index	10		// write
+					Descriptor_Index	12		// (B)Lorg/globalplatform/upgrade/Element;
+				}
+				method_info {
+					token	2
+					access_flags	public abstract
+					name_index	10		// write
+					Descriptor_Index	13		// (S)Lorg/globalplatform/upgrade/Element;
+				}
+				method_info {
+					token	3
+					access_flags	public abstract
+					name_index	10		// write
+					Descriptor_Index	14		// (Ljava/lang/Object;)Lorg/globalplatform/upgrade/Element;
+				}
+				method_info {
+					token	4
+					access_flags	public abstract
+					name_index	15		// canWriteBoolean
+					Descriptor_Index	16		// ()S
+				}
+				method_info {
+					token	5
+					access_flags	public abstract
+					name_index	17		// canWriteByte
+					Descriptor_Index	16		// ()S
+				}
+				method_info {
+					token	6
+					access_flags	public abstract
+					name_index	18		// canWriteShort
+					Descriptor_Index	16		// ()S
+				}
+				method_info {
+					token	7
+					access_flags	public abstract
+					name_index	19		// canWriteObject
+					Descriptor_Index	16		// ()S
+				}
+				method_info {
+					token	8
+					access_flags	public abstract
+					name_index	20		// initRead
+					Descriptor_Index	21		// ()V
+				}
+				method_info {
+					token	9
+					access_flags	public abstract
+					name_index	22		// readBoolean
+					Descriptor_Index	23		// ()Z
+				}
+				method_info {
+					token	10
+					access_flags	public abstract
+					name_index	24		// readByte
+					Descriptor_Index	25		// ()B
+				}
+				method_info {
+					token	11
+					access_flags	public abstract
+					name_index	26		// readShort
+					Descriptor_Index	16		// ()S
+				}
+				method_info {
+					token	12
+					access_flags	public abstract
+					name_index	27		// readObject
+					Descriptor_Index	28		// ()Ljava/lang/Object;
+				}
+				method_info {
+					token	13
+					access_flags	public abstract
+					name_index	29		// canReadBoolean
+					Descriptor_Index	16		// ()S
+				}
+				method_info {
+					token	14
+					access_flags	public abstract
+					name_index	30		// canReadByte
+					Descriptor_Index	16		// ()S
+				}
+				method_info {
+					token	15
+					access_flags	public abstract
+					name_index	31		// canReadShort
+					Descriptor_Index	16		// ()S
+				}
+				method_info {
+					token	16
+					access_flags	public abstract
+					name_index	32		// canReadObject
+					Descriptor_Index	16		// ()S
+				}
+				method_info {
+					token	17
+					access_flags	public abstract
+					name_index	37		// getMappedObject
+					Descriptor_Index	28		// ()Ljava/lang/Object;
+				}
+				method_info {
+					token	18
+					access_flags	public abstract
+					name_index	38		// setMappedObject
+					Descriptor_Index	14		// (Ljava/lang/Object;)Lorg/globalplatform/upgrade/Element;
+				}
+			}
+			CAP22_inheritable_count	19
+		}
+		class_info {		// org/globalplatform/upgrade/OnUpgradeListener
+			token	2
+			access_flags	public abstract interface
+			name_index	48		// org/globalplatform/upgrade/OnUpgradeListener
+			export_supers_count	1
+			supers {
+				constant_pool_index	36		// java/lang/Object
+			}
+			export_interfaces_count	0
+			interfaces {
+			}
+			export_fields_count	0
+			fields {
+			}
+			export_methods_count	4
+			methods {
+				method_info {
+					token	0
+					access_flags	public abstract
+					name_index	41		// onSave
+					Descriptor_Index	42		// ()Lorg/globalplatform/upgrade/Element;
+				}
+				method_info {
+					token	1
+					access_flags	public abstract
+					name_index	43		// onCleanup
+					Descriptor_Index	21		// ()V
+				}
+				method_info {
+					token	2
+					access_flags	public abstract
+					name_index	44		// onRestore
+					Descriptor_Index	45		// (Lorg/globalplatform/upgrade/Element;)V
+				}
+				method_info {
+					token	3
+					access_flags	public abstract
+					name_index	46		// onConsolidate
+					Descriptor_Index	21		// ()V
+				}
+			}
+			CAP22_inheritable_count	4
+		}
+		class_info {		// org/globalplatform/upgrade/UpgradeManager
+			token	3
+			access_flags	public final
+			name_index	61		// org/globalplatform/upgrade/UpgradeManager
+			export_supers_count	1
+			supers {
+				constant_pool_index	36		// java/lang/Object
+			}
+			export_interfaces_count	0
+			interfaces {
+			}
+			export_fields_count	0
+			fields {
+			}
+			export_methods_count	7
+			methods {
+				method_info {
+					token	0
+					access_flags	public static
+					name_index	49		// isUpgrading
+					Descriptor_Index	23		// ()Z
+				}
+				method_info {
+					token	1
+					access_flags	public static
+					name_index	50		// getPreviousPackageVersion
+					Descriptor_Index	16		// ()S
+				}
+				method_info {
+					token	2
+					access_flags	public static
+					name_index	51		// checkPreviousPackageAID
+					Descriptor_Index	52		// ([BSB)Z
+				}
+				method_info {
+					token	3
+					access_flags	public static
+					name_index	53		// createElement
+					Descriptor_Index	54		// (BSS)Lorg/globalplatform/upgrade/Element;
+				}
+				method_info {
+					token	4
+					access_flags	public static
+					name_index	55		// matchMappedElement
+					Descriptor_Index	56		// (Ljava/lang/Object;)Lorg/globalplatform/upgrade/MappedElement;
+				}
+				method_info {
+					token	5
+					access_flags	public static
+					name_index	57		// nonNullReference
+					Descriptor_Index	28		// ()Ljava/lang/Object;
+				}
+				method_info {
+					token	0
+					access_flags	public
+					name_index	58		// equals
+					Descriptor_Index	59		// (Ljava/lang/Object;)Z
+				}
+			}
+			CAP22_inheritable_count	1
+		}
+	}
+}

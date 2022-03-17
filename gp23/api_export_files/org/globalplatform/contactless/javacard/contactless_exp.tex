@@ -1,0 +1,2968 @@
+export file {		// org/globalplatform/contactless
+	magic	00FACADE		 // in hex
+	minor_version	1
+	major_version	2
+	constant_pool_count	243
+	constant_pool {
+		Constant_Utf8_info {
+			tag	1
+			length	13
+			bytes	notifyCLEvent
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	4
+			bytes	(S)V
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	39
+			bytes	org/globalplatform/contactless/CLApplet
+		}
+		Constant_Classref_info {
+			tag	7
+			name_index	2		// org/globalplatform/contactless/CLApplet
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	16
+			bytes	java/lang/Object
+		}
+		Constant_Classref_info {
+			tag	7
+			name_index	4		// java/lang/Object
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	28
+			bytes	javacard/framework/Shareable
+		}
+		Constant_Classref_info {
+			tag	7
+			name_index	6		// javacard/framework/Shareable
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	31
+			bytes	REASON_BUSINESS_POLICY_CONFLICT
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	1
+			bytes	S
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	13
+			bytes	ConstantValue
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	1
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	24
+			bytes	REASON_USER_NOT_VERIFIED
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	2
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	18
+			bytes	REASON_UNSPECIFIED
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	3
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	16
+			bytes	acceptActivation
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	3
+			bytes	()Z
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	30
+			bytes	getNextApplicationConflictInfo
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	6
+			bytes	([BS)S
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	55
+			bytes	org/globalplatform/contactless/CLAppletActivationPolicy
+		}
+		Constant_Classref_info {
+			tag	7
+			name_index	20		// org/globalplatform/contactless/CLAppletActivationPolicy
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	21
+			bytes	EVENT_NON_ACTIVATABLE
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	129
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	15
+			bytes	EVENT_ACTIVATED
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	17
+			bytes	EVENT_DEACTIVATED
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	130
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	9
+			bytes	EVENT_URI
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	4
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	24
+			bytes	EVENT_DISCRETIONARY_DATA
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	5
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	10
+			bytes	EVENT_LOGO
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	6
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	26
+			bytes	EVENT_PROTOCOL_DATA_TYPE_A
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	7
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	26
+			bytes	EVENT_PROTOCOL_DATA_TYPE_B
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	8
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	26
+			bytes	EVENT_PROTOCOL_DATA_TYPE_F
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	9
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	21
+			bytes	EVENT_DISPLAY_MESSAGE
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	10
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	34
+			bytes	EVENT_IMPLICIT_SELECTION_PROTOCOLS
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	11
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	23
+			bytes	EVENT_FAMILY_IDENTIFIER
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	12
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	27
+			bytes	EVENT_CONTINUOUS_PROCESS_ON
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	13
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	28
+			bytes	EVENT_CONTINUOUS_PROCESS_OFF
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	141
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	16
+			bytes	EVENT_CREL_ADDED
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	14
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	18
+			bytes	EVENT_CREL_REMOVED
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	142
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	24
+			bytes	EVENT_GROUP_MEMBER_ADDED
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	15
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	26
+			bytes	EVENT_GROUP_MEMBER_REMOVED
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	143
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	36
+			bytes	EVENT_POLICY_RESTRICTED_APPLICATIONS
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	16
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	15
+			bytes	EVENT_INSTALLED
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	17
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	16
+			bytes	EVENT_SELECTABLE
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	18
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	12
+			bytes	EVENT_LOCKED
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	19
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	14
+			bytes	EVENT_UNLOCKED
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	147
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	13
+			bytes	EVENT_DELETED
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	20
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	25
+			bytes	EVENT_DISPLAY_REQUIREMENT
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	21
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	37
+			bytes	EVENT_COMMUNICATIONS_ISO14443_ENABLED
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	22
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	38
+			bytes	EVENT_COMMUNICATIONS_ISO14443_DISABLED
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	150
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	40
+			bytes	EVENT_PROXIMITY_INTERFACE_ACCESS_ENABLED
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	41
+			bytes	EVENT_PROXIMITY_INTERFACE_ACCESS_DISABLED
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	32
+			bytes	EVENT_SELECTION_PRIORITY_HIGHEST
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	23
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	31
+			bytes	EVENT_SELECTION_PRIORITY_LOWEST
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	151
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	37
+			bytes	EVENT_VOLATILE_SELECTION_PRIORITY_SET
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	24
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	39
+			bytes	EVENT_VOLATILE_SELECTION_PRIORITY_RESET
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	152
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	10
+			bytes	EVENT_RFU1
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	127
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	44
+			bytes	org/globalplatform/contactless/CLAppletEvent
+		}
+		Constant_Classref_info {
+			tag	7
+			name_index	87		// org/globalplatform/contactless/CLAppletEvent
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	54
+			bytes	(Lorg/globalplatform/contactless/GPCLRegistryEntry;S)V
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	46
+			bytes	org/globalplatform/contactless/CRELApplication
+		}
+		Constant_Classref_info {
+			tag	7
+			name_index	90		// org/globalplatform/contactless/CRELApplication
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	16
+			bytes	processCLRequest
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	90
+			bytes	(Lorg/globalplatform/GPRegistryEntry;Lorg/globalplatform/contactless/GPCLRegistryEntry;S)Z
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	45
+			bytes	org/globalplatform/contactless/CRSApplication
+		}
+		Constant_Classref_info {
+			tag	7
+			name_index	94		// org/globalplatform/contactless/CRSApplication
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	32
+			bytes	PRIVILEGE_CONTACTLESS_ACTIVATION
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	1
+			bytes	B
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	37
+			bytes	PRIVILEGE_CONTACTLESS_SELF_ACTIVATION
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	24
+			bytes	STATE_CL_NON_ACTIVATABLE
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	-128
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	18
+			bytes	STATE_CL_ACTIVATED
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	20
+			bytes	STATE_CL_DEACTIVATED
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	0
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	8
+			bytes	INFO_URI
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	23
+			bytes	INFO_DISCRETIONARY_DATA
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	9
+			bytes	INFO_LOGO
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	25
+			bytes	INFO_PROTOCOL_DATA_TYPE_A
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	25
+			bytes	INFO_PROTOCOL_DATA_TYPE_B
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	25
+			bytes	INFO_PROTOCOL_DATA_TYPE_F
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	20
+			bytes	INFO_DISPLAY_MESSAGE
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	22
+			bytes	INFO_FAMILY_IDENTIFIER
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	33
+			bytes	INFO_IMPLICIT_SELECTION_PROTOCOLS
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	25
+			bytes	IMPLICIT_SELECTION_TYPE_A
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	-127
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	25
+			bytes	IMPLICIT_SELECTION_TYPE_B
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	-126
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	25
+			bytes	IMPLICIT_SELECTION_TYPE_F
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	-124
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	23
+			bytes	INFO_CONTINUOUS_PROCESS
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	26
+			bytes	CONTINUOUS_PROCESS_ENABLED
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	27
+			bytes	CONTINUOUS_PROCESS_DISABLED
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	19
+			bytes	INFO_COUNTER_UPDATE
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	24
+			bytes	INFO_DISPLAY_REQUIREMENT
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	22
+			bytes	DISPLAY_REQUIREMENT_NO
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	23
+			bytes	DISPLAY_REQUIREMENT_YES
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	35
+			bytes	INFO_POLICY_RESTRICTED_APPLICATIONS
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	45
+			bytes	INFO_IMPLICIT_SELECTION_RECOGNITION_ALGORITHM
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	23
+			bytes	INFO_SELECTION_PRIORITY
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	27
+			bytes	INFO_GROUP_HEAD_APPLICATION
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	30
+			bytes	INFO_PROTOCOL_TYPE_F_MODE_FLAG
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	30
+			bytes	PROTOCOL_TYPE_F_MODE_FLAG_TRUE
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	31
+			bytes	PROTOCOL_TYPE_F_MODE_FLAG_FALSE
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	32
+			bytes	INFO_PRIVACY_SENSITIVE_INDICATOR
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	17
+			bytes	deregisterService
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	6
+			bytes	getAID
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	26
+			bytes	()Ljavacard/framework/AID;
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	13
+			bytes	getPrivileges
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	8
+			bytes	getState
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	3
+			bytes	()B
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	12
+			bytes	isAssociated
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	27
+			bytes	(Ljavacard/framework/AID;)Z
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	12
+			bytes	isPrivileged
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	4
+			bytes	(B)Z
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	15
+			bytes	registerService
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	8
+			bytes	setState
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	10
+			bytes	setCLState
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	4
+			bytes	(B)B
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	10
+			bytes	getCLState
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	7
+			bytes	getInfo
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	7
+			bytes	([BSS)S
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	7
+			bytes	setInfo
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	8
+			bytes	([BSSS)S
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	29
+			bytes	getNextConflictingApplication
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	102
+			bytes	(Lorg/globalplatform/contactless/GPCLRegistryEntry;)Lorg/globalplatform/contactless/GPCLRegistryEntry;
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	9
+			bytes	joinGroup
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	27
+			bytes	(Ljavacard/framework/AID;)V
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	18
+			bytes	getNextGroupMember
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	27
+			bytes	addToGroupAuthorizationList
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	7
+			bytes	([BSS)V
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	32
+			bytes	removeFromGroupAuthorizationList
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	24
+			bytes	setPartialSelectionOrder
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	4
+			bytes	(Z)V
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	22
+			bytes	getNextCRELApplication
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	24
+			bytes	addToCRELApplicationList
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	29
+			bytes	removeFromCRELApplicationList
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	29
+			bytes	getNextReferencingApplication
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	11
+			bytes	isGroupHead
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	13
+			bytes	isGroupMember
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	48
+			bytes	org/globalplatform/contactless/GPCLRegistryEntry
+		}
+		Constant_Classref_info {
+			tag	7
+			name_index	169		// org/globalplatform/contactless/GPCLRegistryEntry
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	34
+			bytes	org/globalplatform/GPRegistryEntry
+		}
+		Constant_Classref_info {
+			tag	7
+			name_index	171		// org/globalplatform/GPRegistryEntry
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	19
+			bytes	GPCL_CL_APPLICATION
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	-122
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	20
+			bytes	GPCL_CRS_APPLICATION
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	21
+			bytes	GPCL_CREL_APPLICATION
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	-123
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	37
+			bytes	GPCL_CL_APPLICATION_ACTIVATION_POLICY
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	-125
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	7
+			bytes	AFI_ANY
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	13
+			bytes	AFI_TRANSPORT
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	13
+			bytes	AFI_FINANCIAL
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	32
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	18
+			bytes	AFI_IDENTIFICATION
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	48
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	21
+			bytes	AFI_TELECOMMUNICATION
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	64
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	11
+			bytes	AFI_MEDICAL
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	80
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	14
+			bytes	AFI_MULTIMEDIA
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	96
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	10
+			bytes	AFI_GAMING
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	112
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	16
+			bytes	AFI_DATA_STORAGE
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	128
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	38
+			bytes	CARD_INFO_DEFAULT_PROTOCOL_DATA_TYPE_A
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	38
+			bytes	CARD_INFO_DEFAULT_PROTOCOL_DATA_TYPE_B
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	38
+			bytes	CARD_INFO_DEFAULT_PROTOCOL_DATA_TYPE_F
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	38
+			bytes	CARD_INFO_CURRENT_PROTOCOL_DATA_TYPE_A
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	38
+			bytes	CARD_INFO_CURRENT_PROTOCOL_DATA_TYPE_B
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	38
+			bytes	CARD_INFO_CURRENT_PROTOCOL_DATA_TYPE_F
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	24
+			bytes	CARD_INFO_COUNTER_UPDATE
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	41
+			bytes	CARD_INFO_CONTACTLESS_PROTOCOL_TYPE_STATE
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	23
+			bytes	GPCL_INTERFACE_ISO14443
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	27
+			bytes	GPCL_PROXIMITY_IO_INTERFACE
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	33
+			bytes	GPCL_PROXIMITY_IO_PROTOCOL_TYPE_A
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	65
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	33
+			bytes	GPCL_PROXIMITY_IO_PROTOCOL_TYPE_B
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	66
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	33
+			bytes	GPCL_PROXIMITY_IO_PROTOCOL_TYPE_F
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	68
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	22
+			bytes	SECURE_ELEMENT_UNKNOWN
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	19
+			bytes	SECURE_ELEMENT_UICC
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	23
+			bytes	SECURE_ELEMENT_EMBEDDED
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	21
+			bytes	SECURE_ELEMENT_SDCARD
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	28
+			bytes	HOST_DEVICE_UI_STATE_UNKNOWN
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	-32768
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	24
+			bytes	HOST_DEVICE_UI_AVAILABLE
+		}
+		Constant_Integer_info {
+			tag	3
+			bytes	16384
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	20
+			bytes	getGPCLRegistryEntry
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	76
+			bytes	(Ljavacard/framework/AID;)Lorg/globalplatform/contactless/GPCLRegistryEntry;
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	24
+			bytes	getNextGPCLRegistryEntry
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	103
+			bytes	(Lorg/globalplatform/contactless/GPCLRegistryEntry;S)Lorg/globalplatform/contactless/GPCLRegistryEntry;
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	19
+			bytes	setVolatilePriority
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	53
+			bytes	(Lorg/globalplatform/contactless/GPCLRegistryEntry;)V
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	13
+			bytes	getCardCLInfo
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	25
+			bytes	setCommunicationInterface
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	5
+			bytes	(SZ)V
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	31
+			bytes	isCommunicationInterfaceEnabled
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	4
+			bytes	(S)Z
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	20
+			bytes	getSecureElementType
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	31
+			bytes	getHostDeviceUserInterfaceState
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	3
+			bytes	()S
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	27
+			bytes	launchHostDeviceApplication
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	33
+			bytes	checkCommunicationInterfaceAccess
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	40
+			bytes	(Lorg/globalplatform/GPRegistryEntry;S)Z
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	6
+			bytes	equals
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	21
+			bytes	(Ljava/lang/Object;)Z
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	41
+			bytes	org/globalplatform/contactless/GPCLSystem
+		}
+		Constant_Classref_info {
+			tag	7
+			name_index	239		// org/globalplatform/contactless/GPCLSystem
+		}
+		Constant_Utf8_info {
+			tag	1
+			length	30
+			bytes	org/globalplatform/contactless
+		}
+		CONSTANT_Package_info {
+			tag	13
+			flags	1
+			name_index	241		// org/globalplatform/contactless
+			minor_version	4
+			major_version	1
+			aid_length	6
+			aid	0xA0:0x0:0x0:0x1:0x51:0x2
+		}
+	}
+	this_package	242
+	referenced_package_count	-1
+	export_class_count	7
+	export_classes {
+		class_info {		// org/globalplatform/contactless/CLApplet
+			token	0
+			access_flags	public abstract interface shareable
+			name_index	3		// org/globalplatform/contactless/CLApplet
+			export_supers_count	1
+			supers {
+				constant_pool_index	5		// java/lang/Object
+			}
+			export_interfaces_count	1
+			interfaces {
+				constant_pool_index	7		// javacard/framework/Shareable
+			}
+			export_fields_count	0
+			fields {
+			}
+			export_methods_count	1
+			methods {
+				method_info {
+					token	0
+					access_flags	public abstract
+					name_index	0		// notifyCLEvent
+					Descriptor_Index	1		// (S)V
+				}
+			}
+			CAP22_inheritable_count	1
+		}
+		class_info {		// org/globalplatform/contactless/CLAppletActivationPolicy
+			token	6
+			access_flags	public abstract interface shareable
+			name_index	21		// org/globalplatform/contactless/CLAppletActivationPolicy
+			export_supers_count	1
+			supers {
+				constant_pool_index	5		// java/lang/Object
+			}
+			export_interfaces_count	1
+			interfaces {
+				constant_pool_index	7		// javacard/framework/Shareable
+			}
+			export_fields_count	3
+			fields {
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	8		// REASON_BUSINESS_POLICY_CONFLICT
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	11		// value = 1
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	12		// REASON_USER_NOT_VERIFIED
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	13		// value = 2
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	14		// REASON_UNSPECIFIED
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	15		// value = 3
+				}
+				}
+			}
+			}
+			export_methods_count	2
+			methods {
+				method_info {
+					token	0
+					access_flags	public abstract
+					name_index	16		// acceptActivation
+					Descriptor_Index	17		// ()Z
+				}
+				method_info {
+					token	1
+					access_flags	public abstract
+					name_index	18		// getNextApplicationConflictInfo
+					Descriptor_Index	19		// ([BS)S
+				}
+			}
+			CAP22_inheritable_count	2
+		}
+		class_info {		// org/globalplatform/contactless/CLAppletEvent
+			token	1
+			access_flags	public abstract interface
+			name_index	88		// org/globalplatform/contactless/CLAppletEvent
+			export_supers_count	1
+			supers {
+				constant_pool_index	5		// java/lang/Object
+			}
+			export_interfaces_count	0
+			interfaces {
+			}
+			export_fields_count	34
+			fields {
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	22		// EVENT_NON_ACTIVATABLE
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	23		// value = 129
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	24		// EVENT_ACTIVATED
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	13		// value = 2
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	25		// EVENT_DEACTIVATED
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	26		// value = 130
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	27		// EVENT_URI
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	28		// value = 4
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	29		// EVENT_DISCRETIONARY_DATA
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	30		// value = 5
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	31		// EVENT_LOGO
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	32		// value = 6
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	33		// EVENT_PROTOCOL_DATA_TYPE_A
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	34		// value = 7
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	35		// EVENT_PROTOCOL_DATA_TYPE_B
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	36		// value = 8
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	37		// EVENT_PROTOCOL_DATA_TYPE_F
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	38		// value = 9
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	39		// EVENT_DISPLAY_MESSAGE
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	40		// value = 10
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	41		// EVENT_IMPLICIT_SELECTION_PROTOCOLS
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	42		// value = 11
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	43		// EVENT_FAMILY_IDENTIFIER
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	44		// value = 12
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	45		// EVENT_CONTINUOUS_PROCESS_ON
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	46		// value = 13
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	47		// EVENT_CONTINUOUS_PROCESS_OFF
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	48		// value = 141
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	49		// EVENT_CREL_ADDED
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	50		// value = 14
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	51		// EVENT_CREL_REMOVED
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	52		// value = 142
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	53		// EVENT_GROUP_MEMBER_ADDED
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	54		// value = 15
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	55		// EVENT_GROUP_MEMBER_REMOVED
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	56		// value = 143
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	57		// EVENT_POLICY_RESTRICTED_APPLICATIONS
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	58		// value = 16
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	59		// EVENT_INSTALLED
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	60		// value = 17
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	61		// EVENT_SELECTABLE
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	62		// value = 18
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	63		// EVENT_LOCKED
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	64		// value = 19
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	65		// EVENT_UNLOCKED
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	66		// value = 147
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	67		// EVENT_DELETED
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	68		// value = 20
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	69		// EVENT_DISPLAY_REQUIREMENT
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	70		// value = 21
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	71		// EVENT_COMMUNICATIONS_ISO14443_ENABLED
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	72		// value = 22
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	73		// EVENT_COMMUNICATIONS_ISO14443_DISABLED
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	74		// value = 150
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	75		// EVENT_PROXIMITY_INTERFACE_ACCESS_ENABLED
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	72		// value = 22
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	76		// EVENT_PROXIMITY_INTERFACE_ACCESS_DISABLED
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	74		// value = 150
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	77		// EVENT_SELECTION_PRIORITY_HIGHEST
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	78		// value = 23
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	79		// EVENT_SELECTION_PRIORITY_LOWEST
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	80		// value = 151
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	81		// EVENT_VOLATILE_SELECTION_PRIORITY_SET
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	82		// value = 24
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	83		// EVENT_VOLATILE_SELECTION_PRIORITY_RESET
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	84		// value = 152
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	85		// EVENT_RFU1
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	86		// value = 127
+				}
+				}
+			}
+			}
+			export_methods_count	0
+			methods {
+			}
+			CAP22_inheritable_count	0
+		}
+		class_info {		// org/globalplatform/contactless/CRELApplication
+			token	2
+			access_flags	public abstract interface shareable
+			name_index	91		// org/globalplatform/contactless/CRELApplication
+			export_supers_count	1
+			supers {
+				constant_pool_index	5		// java/lang/Object
+			}
+			export_interfaces_count	1
+			interfaces {
+				constant_pool_index	7		// javacard/framework/Shareable
+			}
+			export_fields_count	0
+			fields {
+			}
+			export_methods_count	1
+			methods {
+				method_info {
+					token	0
+					access_flags	public abstract
+					name_index	0		// notifyCLEvent
+					Descriptor_Index	89		// (Lorg/globalplatform/contactless/GPCLRegistryEntry;S)V
+				}
+			}
+			CAP22_inheritable_count	1
+		}
+		class_info {		// org/globalplatform/contactless/CRSApplication
+			token	3
+			access_flags	public abstract interface shareable
+			name_index	95		// org/globalplatform/contactless/CRSApplication
+			export_supers_count	1
+			supers {
+				constant_pool_index	5		// java/lang/Object
+			}
+			export_interfaces_count	2
+			interfaces {
+				constant_pool_index	7		// javacard/framework/Shareable
+				constant_pool_index	91		// org/globalplatform/contactless/CRELApplication
+			}
+			export_fields_count	0
+			fields {
+			}
+			export_methods_count	2
+			methods {
+				method_info {
+					token	0
+					access_flags	public abstract
+					name_index	0		// notifyCLEvent
+					Descriptor_Index	89		// (Lorg/globalplatform/contactless/GPCLRegistryEntry;S)V
+				}
+				method_info {
+					token	1
+					access_flags	public abstract
+					name_index	92		// processCLRequest
+					Descriptor_Index	93		// (Lorg/globalplatform/GPRegistryEntry;Lorg/globalplatform/contactless/GPCLRegistryEntry;S)Z
+				}
+			}
+			CAP22_inheritable_count	2
+		}
+		class_info {		// org/globalplatform/contactless/GPCLRegistryEntry
+			token	4
+			access_flags	public abstract interface shareable
+			name_index	170		// org/globalplatform/contactless/GPCLRegistryEntry
+			export_supers_count	1
+			supers {
+				constant_pool_index	5		// java/lang/Object
+			}
+			export_interfaces_count	2
+			interfaces {
+				constant_pool_index	7		// javacard/framework/Shareable
+				constant_pool_index	172		// org/globalplatform/GPRegistryEntry
+			}
+			export_fields_count	32
+			fields {
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	96		// PRIVILEGE_CONTACTLESS_ACTIVATION
+				Descriptor_Index	97		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	62		// value = 18
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	98		// PRIVILEGE_CONTACTLESS_SELF_ACTIVATION
+				Descriptor_Index	97		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	64		// value = 19
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	99		// STATE_CL_NON_ACTIVATABLE
+				Descriptor_Index	97		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	100		// value = -128
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	101		// STATE_CL_ACTIVATED
+				Descriptor_Index	97		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	11		// value = 1
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	102		// STATE_CL_DEACTIVATED
+				Descriptor_Index	97		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	103		// value = 0
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	104		// INFO_URI
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	28		// value = 4
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	105		// INFO_DISCRETIONARY_DATA
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	30		// value = 5
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	106		// INFO_LOGO
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	32		// value = 6
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	107		// INFO_PROTOCOL_DATA_TYPE_A
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	34		// value = 7
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	108		// INFO_PROTOCOL_DATA_TYPE_B
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	36		// value = 8
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	109		// INFO_PROTOCOL_DATA_TYPE_F
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	38		// value = 9
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	110		// INFO_DISPLAY_MESSAGE
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	40		// value = 10
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	111		// INFO_FAMILY_IDENTIFIER
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	42		// value = 11
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	112		// INFO_IMPLICIT_SELECTION_PROTOCOLS
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	44		// value = 12
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	113		// IMPLICIT_SELECTION_TYPE_A
+				Descriptor_Index	97		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	114		// value = -127
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	115		// IMPLICIT_SELECTION_TYPE_B
+				Descriptor_Index	97		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	116		// value = -126
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	117		// IMPLICIT_SELECTION_TYPE_F
+				Descriptor_Index	97		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	118		// value = -124
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	119		// INFO_CONTINUOUS_PROCESS
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	46		// value = 13
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	120		// CONTINUOUS_PROCESS_ENABLED
+				Descriptor_Index	97		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	13		// value = 2
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	121		// CONTINUOUS_PROCESS_DISABLED
+				Descriptor_Index	97		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	11		// value = 1
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	122		// INFO_COUNTER_UPDATE
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	50		// value = 14
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	123		// INFO_DISPLAY_REQUIREMENT
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	54		// value = 15
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	124		// DISPLAY_REQUIREMENT_NO
+				Descriptor_Index	97		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	11		// value = 1
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	125		// DISPLAY_REQUIREMENT_YES
+				Descriptor_Index	97		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	103		// value = 0
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	126		// INFO_POLICY_RESTRICTED_APPLICATIONS
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	58		// value = 16
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	127		// INFO_IMPLICIT_SELECTION_RECOGNITION_ALGORITHM
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	60		// value = 17
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	128		// INFO_SELECTION_PRIORITY
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	62		// value = 18
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	129		// INFO_GROUP_HEAD_APPLICATION
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	64		// value = 19
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	130		// INFO_PROTOCOL_TYPE_F_MODE_FLAG
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	68		// value = 20
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	131		// PROTOCOL_TYPE_F_MODE_FLAG_TRUE
+				Descriptor_Index	97		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	11		// value = 1
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	132		// PROTOCOL_TYPE_F_MODE_FLAG_FALSE
+				Descriptor_Index	97		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	103		// value = 0
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	133		// INFO_PRIVACY_SENSITIVE_INDICATOR
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	70		// value = 21
+				}
+				}
+			}
+			}
+			export_methods_count	24
+			methods {
+				method_info {
+					token	0
+					access_flags	public abstract
+					name_index	134		// deregisterService
+					Descriptor_Index	1		// (S)V
+				}
+				method_info {
+					token	1
+					access_flags	public abstract
+					name_index	135		// getAID
+					Descriptor_Index	136		// ()Ljavacard/framework/AID;
+				}
+				method_info {
+					token	2
+					access_flags	public abstract
+					name_index	137		// getPrivileges
+					Descriptor_Index	19		// ([BS)S
+				}
+				method_info {
+					token	3
+					access_flags	public abstract
+					name_index	138		// getState
+					Descriptor_Index	139		// ()B
+				}
+				method_info {
+					token	4
+					access_flags	public abstract
+					name_index	140		// isAssociated
+					Descriptor_Index	141		// (Ljavacard/framework/AID;)Z
+				}
+				method_info {
+					token	5
+					access_flags	public abstract
+					name_index	142		// isPrivileged
+					Descriptor_Index	143		// (B)Z
+				}
+				method_info {
+					token	6
+					access_flags	public abstract
+					name_index	144		// registerService
+					Descriptor_Index	1		// (S)V
+				}
+				method_info {
+					token	7
+					access_flags	public abstract
+					name_index	145		// setState
+					Descriptor_Index	143		// (B)Z
+				}
+				method_info {
+					token	8
+					access_flags	public abstract
+					name_index	146		// setCLState
+					Descriptor_Index	147		// (B)B
+				}
+				method_info {
+					token	9
+					access_flags	public abstract
+					name_index	148		// getCLState
+					Descriptor_Index	139		// ()B
+				}
+				method_info {
+					token	10
+					access_flags	public abstract
+					name_index	149		// getInfo
+					Descriptor_Index	150		// ([BSS)S
+				}
+				method_info {
+					token	11
+					access_flags	public abstract
+					name_index	151		// setInfo
+					Descriptor_Index	152		// ([BSSS)S
+				}
+				method_info {
+					token	12
+					access_flags	public abstract
+					name_index	153		// getNextConflictingApplication
+					Descriptor_Index	154		// (Lorg/globalplatform/contactless/GPCLRegistryEntry;)Lorg/globalplatform/contactless/GPCLRegistryEntry;
+				}
+				method_info {
+					token	13
+					access_flags	public abstract
+					name_index	155		// joinGroup
+					Descriptor_Index	156		// (Ljavacard/framework/AID;)V
+				}
+				method_info {
+					token	14
+					access_flags	public abstract
+					name_index	157		// getNextGroupMember
+					Descriptor_Index	154		// (Lorg/globalplatform/contactless/GPCLRegistryEntry;)Lorg/globalplatform/contactless/GPCLRegistryEntry;
+				}
+				method_info {
+					token	15
+					access_flags	public abstract
+					name_index	158		// addToGroupAuthorizationList
+					Descriptor_Index	159		// ([BSS)V
+				}
+				method_info {
+					token	16
+					access_flags	public abstract
+					name_index	160		// removeFromGroupAuthorizationList
+					Descriptor_Index	159		// ([BSS)V
+				}
+				method_info {
+					token	17
+					access_flags	public abstract
+					name_index	161		// setPartialSelectionOrder
+					Descriptor_Index	162		// (Z)V
+				}
+				method_info {
+					token	18
+					access_flags	public abstract
+					name_index	163		// getNextCRELApplication
+					Descriptor_Index	154		// (Lorg/globalplatform/contactless/GPCLRegistryEntry;)Lorg/globalplatform/contactless/GPCLRegistryEntry;
+				}
+				method_info {
+					token	19
+					access_flags	public abstract
+					name_index	164		// addToCRELApplicationList
+					Descriptor_Index	159		// ([BSS)V
+				}
+				method_info {
+					token	20
+					access_flags	public abstract
+					name_index	165		// removeFromCRELApplicationList
+					Descriptor_Index	159		// ([BSS)V
+				}
+				method_info {
+					token	21
+					access_flags	public abstract
+					name_index	166		// getNextReferencingApplication
+					Descriptor_Index	154		// (Lorg/globalplatform/contactless/GPCLRegistryEntry;)Lorg/globalplatform/contactless/GPCLRegistryEntry;
+				}
+				method_info {
+					token	22
+					access_flags	public abstract
+					name_index	167		// isGroupHead
+					Descriptor_Index	17		// ()Z
+				}
+				method_info {
+					token	23
+					access_flags	public abstract
+					name_index	168		// isGroupMember
+					Descriptor_Index	17		// ()Z
+				}
+			}
+			CAP22_inheritable_count	24
+		}
+		class_info {		// org/globalplatform/contactless/GPCLSystem
+			token	5
+			access_flags	public
+			name_index	240		// org/globalplatform/contactless/GPCLSystem
+			export_supers_count	1
+			supers {
+				constant_pool_index	5		// java/lang/Object
+			}
+			export_interfaces_count	0
+			interfaces {
+			}
+			export_fields_count	32
+			fields {
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	173		// GPCL_CL_APPLICATION
+				Descriptor_Index	97		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	174		// value = -122
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	175		// GPCL_CRS_APPLICATION
+				Descriptor_Index	97		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	118		// value = -124
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	176		// GPCL_CREL_APPLICATION
+				Descriptor_Index	97		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	177		// value = -123
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	178		// GPCL_CL_APPLICATION_ACTIVATION_POLICY
+				Descriptor_Index	97		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	179		// value = -125
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	180		// AFI_ANY
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	103		// value = 0
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	181		// AFI_TRANSPORT
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	58		// value = 16
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	182		// AFI_FINANCIAL
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	183		// value = 32
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	184		// AFI_IDENTIFICATION
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	185		// value = 48
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	186		// AFI_TELECOMMUNICATION
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	187		// value = 64
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	188		// AFI_MEDICAL
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	189		// value = 80
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	190		// AFI_MULTIMEDIA
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	191		// value = 96
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	192		// AFI_GAMING
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	193		// value = 112
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	194		// AFI_DATA_STORAGE
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	195		// value = 128
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	196		// CARD_INFO_DEFAULT_PROTOCOL_DATA_TYPE_A
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	11		// value = 1
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	197		// CARD_INFO_DEFAULT_PROTOCOL_DATA_TYPE_B
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	13		// value = 2
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	198		// CARD_INFO_DEFAULT_PROTOCOL_DATA_TYPE_F
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	15		// value = 3
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	199		// CARD_INFO_CURRENT_PROTOCOL_DATA_TYPE_A
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	28		// value = 4
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	200		// CARD_INFO_CURRENT_PROTOCOL_DATA_TYPE_B
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	30		// value = 5
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	201		// CARD_INFO_CURRENT_PROTOCOL_DATA_TYPE_F
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	32		// value = 6
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	202		// CARD_INFO_COUNTER_UPDATE
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	34		// value = 7
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	203		// CARD_INFO_CONTACTLESS_PROTOCOL_TYPE_STATE
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	36		// value = 8
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	204		// GPCL_INTERFACE_ISO14443
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	11		// value = 1
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	205		// GPCL_PROXIMITY_IO_INTERFACE
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	11		// value = 1
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	206		// GPCL_PROXIMITY_IO_PROTOCOL_TYPE_A
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	207		// value = 65
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	208		// GPCL_PROXIMITY_IO_PROTOCOL_TYPE_B
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	209		// value = 66
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	210		// GPCL_PROXIMITY_IO_PROTOCOL_TYPE_F
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	211		// value = 68
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	212		// SECURE_ELEMENT_UNKNOWN
+				Descriptor_Index	97		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	103		// value = 0
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	213		// SECURE_ELEMENT_UICC
+				Descriptor_Index	97		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	11		// value = 1
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	214		// SECURE_ELEMENT_EMBEDDED
+				Descriptor_Index	97		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	13		// value = 2
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	215		// SECURE_ELEMENT_SDCARD
+				Descriptor_Index	97		// B
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	15		// value = 3
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	216		// HOST_DEVICE_UI_STATE_UNKNOWN
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	217		// value = -32768
+				}
+				}
+			}
+			field_info {
+				token	255
+				access_flags	public static final
+				name_index	218		// HOST_DEVICE_UI_AVAILABLE
+				Descriptor_Index	9		// S
+				attributes_count	1
+				attributes {
+				ConstantValue_attribute {
+					attribute_name_index	10		// ConstantValue
+					attribute_length	2
+					constantvalue_index	219		// value = 16384
+				}
+				}
+			}
+			}
+			export_methods_count	11
+			methods {
+				method_info {
+					token	0
+					access_flags	public static
+					name_index	220		// getGPCLRegistryEntry
+					Descriptor_Index	221		// (Ljavacard/framework/AID;)Lorg/globalplatform/contactless/GPCLRegistryEntry;
+				}
+				method_info {
+					token	1
+					access_flags	public static
+					name_index	222		// getNextGPCLRegistryEntry
+					Descriptor_Index	223		// (Lorg/globalplatform/contactless/GPCLRegistryEntry;S)Lorg/globalplatform/contactless/GPCLRegistryEntry;
+				}
+				method_info {
+					token	2
+					access_flags	public static
+					name_index	224		// setVolatilePriority
+					Descriptor_Index	225		// (Lorg/globalplatform/contactless/GPCLRegistryEntry;)V
+				}
+				method_info {
+					token	3
+					access_flags	public static
+					name_index	226		// getCardCLInfo
+					Descriptor_Index	150		// ([BSS)S
+				}
+				method_info {
+					token	4
+					access_flags	public static
+					name_index	227		// setCommunicationInterface
+					Descriptor_Index	228		// (SZ)V
+				}
+				method_info {
+					token	9
+					access_flags	public static
+					name_index	229		// isCommunicationInterfaceEnabled
+					Descriptor_Index	230		// (S)Z
+				}
+				method_info {
+					token	6
+					access_flags	public static
+					name_index	231		// getSecureElementType
+					Descriptor_Index	139		// ()B
+				}
+				method_info {
+					token	7
+					access_flags	public static
+					name_index	232		// getHostDeviceUserInterfaceState
+					Descriptor_Index	233		// ()S
+				}
+				method_info {
+					token	8
+					access_flags	public static
+					name_index	234		// launchHostDeviceApplication
+					Descriptor_Index	159		// ([BSS)V
+				}
+				method_info {
+					token	5
+					access_flags	public static
+					name_index	235		// checkCommunicationInterfaceAccess
+					Descriptor_Index	236		// (Lorg/globalplatform/GPRegistryEntry;S)Z
+				}
+				method_info {
+					token	0
+					access_flags	public
+					name_index	237		// equals
+					Descriptor_Index	238		// (Ljava/lang/Object;)Z
+				}
+			}
+			CAP22_inheritable_count	1
+		}
+	}
+}
